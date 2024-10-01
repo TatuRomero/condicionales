@@ -37,7 +37,7 @@ function draw() {
 
   // creación del semáforo
   fill(192, 192, 192);
-  rect(windowWidth / 2, 30, 60, 100);
+  rect(768, 30, 60, 100);
 
   // luces del semáforo
   fill(colorSemaforo);
