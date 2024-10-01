@@ -41,9 +41,9 @@ function draw() {
 
   // luces del semáforo
   fill(colorSemaforo);
-  circle(windowWidth / 2 + 20, 60, 28);
+  circle(windowWidth / 2 + 26, 60, 28);
   fill(colorSemaforo);
-  circle(windowWidth / 2 + 20, 100, 28);
+  circle(windowWidth / 2 + 26, 100, 28);
 
   // Mover el carro hacia la derecha
   carroX += 3;
