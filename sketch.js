@@ -31,22 +31,22 @@ function draw() {
 
   // Primera condición: Si el carro llega a la mitad del lienzo, el semáforo cambia a luz verde.
 
-  if (carroX + 30 >= windowWidth / 2) {
+  if (carroX + 30 >= 725) {
     colorSemaforo = color("green");
   }
 
   // creación del semáforo
   fill(192, 192, 192);
-  rect(768, 30, 60, 100);
+  rect(700, 30, 50, 100);
 
   // luces del semáforo
   fill(colorSemaforo);
-  circle(windowWidth / 2 + 26, 60, 28);
+  circle(725, 60, 28);
   fill(colorSemaforo);
-  circle(windowWidth / 2 + 26, 100, 28);
+  circle(725, 100, 28);
 
   // Mover el carro hacia la derecha
-  carroX += 3;
+  carroX += 6;
 
   // Segunda condición: Si el carro sale del lienzo, que vuelva a la posición inicial.
 
